@@ -87,3 +87,6 @@ def mult_lists(l1: List[int], l2: List[int]) -> List[int]:
 #x = x + y
 
 assert mult_lists([1,2,3], [2,2,2]) == [2,4,6]
+
+list = ["x", "y", "z"]
+print(" ".join(list))
